@@ -1,2 +1,2 @@
 * linguist-vendored
-*.ps linguist-vendored=true
+*.ps linguist-vendored=false
