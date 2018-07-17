@@ -8,7 +8,7 @@
 
 AprilNav is a mobile indoor real-time landmark navigation system. Using printable 2D barcodes, a HD
 camera, and a computer, AprilNav is a low cost, scalable, and accurate system for vehicular autonomous
-navigation and localization. Matrices (or 2D barcodes) mounted on the ceiling of a room act as a landmark for a camera located anywhere in the same room with up to 5cm of accuracy. AprilNav has sundry of portentiaol applications ranging from robotics education to manufacturing and warehouse vehicles and facilities.
+navigation and localization. Matrices (or 2D barcodes) mounted on the ceiling of a room act as a landmark for a camera located anywhere in the same room with up to 5cm of accuracy. AprilNav has sundry of potential applications ranging from robotics education to manufacturing and warehouse vehicles and facilities.
 
 Our team at NASA - MSFC has adapted code (AprilTags) originally created by Edward Olson at University of Michigan and adapted by additional authors at Carnegie Mellon and MIT under the LGPL 2.1 license. AprilTags outputs the location of multiple 2D barcodes located anywhere in 3D space. AprilNav expands upon the AprilTags library estimating the pose of a camera given known coordinates of unique tags. 
 
@@ -42,7 +42,7 @@ After compiling, run with:
 ./build/bin/AprilNav
 ```
 
-***Note: Be sure to specify he propper tag size using the -S flag. Display a list of additional customizations using the -h flag
+***Note: Be sure to specify the propper tag size using the -S flag. Display a list of additional customizations using the -h flag
 
 ## Authors
 
@@ -51,7 +51,7 @@ After compiling, run with:
 
 ## Project History
 
-AprilTags were developed by Professor Edwin Olson of the University of
+AprilTags was developed by Professor Edwin Olson of the University of
 Michigan.  His Java implementation is available on this web site:
   http://april.eecs.umich.edu.
 
