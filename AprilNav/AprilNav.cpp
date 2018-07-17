@@ -567,7 +567,7 @@ void print_detection(AprilTags::TagDetection& detection) {
 
 			// print out each detection
 			detectionssize = detections.size();
-			if (!supressOutput){cout << detections.size() << " tags detected:" << endl;}
+			if (!supressOutput){cout << detections.size() << " tags detected: \nTag Position:" << endl;}
 			OUTPUT << std::fixed << std::setprecision(3) << "Time: "<< 	(clock() - start_s) / (double(CLOCKS_PER_SEC)) << endl;
 			for (int i = 0; i < detections.size(); i++) {
 				print_detection(detections[i]);
@@ -633,9 +633,9 @@ void print_detection(AprilTags::TagDetection& detection) {
 				}
 
 				if (!supressOutput){
-					cout << "OPTIMIZED X: " << OPTIMIZED_X << " OPTIMIZED_Y: " << OPTIMIZED_Y << " OPTIMIZED_PITCH: " << OPTIMIZED_PITCH
-					<< " OPTIMIZED_ROLL: " << OPTIMIZED_ROLL << " OPTIMIZED_YAW: " << OPTIMIZED_YAW << " Velocity_X: "<< delta_x/delta_t
-					<< " Velocity_Y: " << delta_y/delta_t << " Velocity_Mag: " << velmag << " Velocity_theta: " << veltheta << " Angular Velocity "<< delta_yaw/delta_t <<endl;
+                    cout << "Your Position/Velocity: \n" << "  x=" << OPTIMIZED_X << ", y=" << OPTIMIZED_Y << ", pitch=" << OPTIMIZED_PITCH
+                    << ", roll=" << OPTIMIZED_ROLL << ", yaw=" << OPTIMIZED_YAW << " \n  velocity_x="<< delta_x/delta_t
+                    << ", velocity_y=" << delta_y/delta_t << ", velocity_mag=" << velmag << ", velocity_theta=" << veltheta << ", angular_velocity="<< delta_yaw/delta_t <<endl;
 				}
 				OUTPUT << std::fixed << std::setprecision(3) <<
 				" Tags detected:"<< detections.size() << endl <<
