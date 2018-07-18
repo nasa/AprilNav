@@ -62,13 +62,3 @@ framework by Jeffrey Boyland and David Touretzky:
 Michael Kaess (kaess@mit.edu) and Hordur Johannson (hordurj@mit.edu) of MIT
 further modified the code and made a standalone library for AprilTags:
   http://people.csail.mit.edu/kaess/apriltags/
-
-----------------------------
-
-todo:
-- significant speedup could be achieved by performing image operations
-  using OpenCV (Gaussian filter, but also operations in
-  TagDetector.cc)
-- replacing arctan2 by precomputed lookup table
-- converting matrix operations to Eigen (mostly for simplifying code,
-  maybe some speedup)
