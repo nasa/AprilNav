@@ -376,7 +376,7 @@ public:
          << ", yaw=" << yaw
          << ", pitch=" << pitch
          << ", roll=" << roll
-	 << ", \n THIS IS A FUCKING TEST!!!!"
+	 << ", \n THIS IS A TEST!!!"
          << endl;
 
     // Also note that for SLAM/multi-view application it is better to
